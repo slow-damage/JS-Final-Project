@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Tic-Tac-Toe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <h1>Cosmic Tic-Tac-Toe</h1>
+        <div id="statusText"></div>
+        <div id="gameBoard">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <div id="stats">
+            <div class="statBox">
+                <h3>Player X</h3>
+                <p id="playerXWins">0 wins</p>
+            </div>
+            <div class="statBox">
+                <h3>Ties</h3>
+                <p id="ties">0</p>
+            </div>
+            <div class="statBox">
+                <h3>Player O</h3>
+                <p id="playerOWins">0 wins</p>
+            </div>
+        </div>
+        <button id="restartBtn">Restart Game</button>
+    </div>
+    <script src="index.js" defer></script>
+</body>
+</html>
